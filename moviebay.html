@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moviebay</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="movstyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="navbar">
+      <div id="navbar-container">
+        <div id="logo-box">
+          <h1><a href="moviebay.html" target="_blank">Moviebay</a></h1>
+        </div>
+        <div id="menu-box">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#retro">Retro</a></li>
+            <li><a href="#feelgood">Feel Good</a></li>
+            <li><a href="#recom">Recommended</a></li>
+            <li><a href="#popular">Popular</a></li>
+          </ul>
+        </div>
+        <div id="profile-box">
+          <img src="img/man.png" alt="" />
+          <div id="profile-text">
+            <span>Profile</span>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div id="toggle">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
+
+            <div id="toggle-bt"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="content-container">
+        <div class="carousel1" if="home" data-flickity='{ "wrapAround": true }'>
+          <div class="carousel-cell1">
+            <div
+              class="featured-content"
+              style="
+                background: linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 0.4),
+                    #151515
+                  ),
+                  url('img/humdo.webp') no-repeat;
+                background-size: 100% 100%;
+              "
+            >
+              <h1>Hum Do Humare Do</h1>
+              <p>
+                Dhruv, who grew up an orphan, is in love with a woman who wishes
+                to marry someone with a family. In order to fulfil his lover's
+                wish, he hires two older individuals to pose as his parents.
+              </p>
+              <button class="watch-btn">Watch Now</button>
+            </div>
+          </div>
+          <div class="carousel-cell1">
+            <div
+              class="featured-content"
+              style="
+                background: linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 0.4),
+                    #151515
+                  ),
+                  url('img/jwm12.jpg') no-repeat;
+                background-size: 100% 100%;
+              "
+            >
+              <h1>Jab we met</h1>
+              <p>
+                The adversities of Aditya's business and love life bring him on
+                the verge of committing suicide. One day, wandering aimlessly,
+                he boards a train and bumps into Geet, a lively and talkative
+                Punjabi Sikh girl, and just like that, without any inkling,
+                Aditya's life changes forever.
+              </p>
+              <button class="watch-btn">Watch Now</button>
+            </div>
+          </div>
+
+          <div class="carousel-cell1">
+            <div
+              class="featured-content"
+              style="
+                background: linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 0.4),
+                    #151515
+                  ),
+                  url('img/notebook.webp') no-repeat;
+                background-size: 100% 100%;
+              "
+            >
+              <h1>Notebook</h1>
+              <p>
+                Kabir, an ex-soldier, becomes a teacher and finds a diary left
+                by Firdaus, a former employee of the school. He follows the
+                writings in the book and soon finds himself falling for the
+                writer.
+              </p>
+              <button class="watch-btn">Watch Now</button>
+            </div>
+          </div>
+          <div class="carousel-cell1">
+            <div
+              class="featured-content"
+              style="
+                background: linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 0.4),
+                    #151515
+                  ),
+                  url('img/major.jpeg') no-repeat;
+                background-size: 100% 100%;
+              "
+            >
+              <h1>Major</h1>
+              <p>
+                Major Sandeep Unnikrishnan faces his biggest battle when he
+                joins the task force to save the occupants at the Taj Hotel
+                attacked by a terrorist group.
+              </p>
+              <button class="watch-btn">Watch Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="movie-list-box">
+        <h1>New Releases</h1>
+        <div class="carousel" data-flickity='{ "groupCells": true }'>
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/bhoolbhul.jpg" alt="" />
+              <span class="movie-li-title"> BB2 </span>
+              <p class="movie-li-para">
+                When strangers Reet and Ruhan cross paths, their journey leads
+                to an abandoned mansion and a dreaded spirit who has been
+                trapped for 18 years.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/shershah.jpeg" alt="" />
+              <span class="movie-li-title"> Shershaah </span>
+              <p class="movie-li-para">
+                Vikram Batra, a young man, dreams of becoming a soldier . Soon
+                after his training, he climbs the military ranks and contributes
+                to India's victory in the Kargil war.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/rcktry.jpg" alt="" />
+              <span class="movie-li-title"> Rocketry</span>
+              <p class="movie-li-para">
+                East Indian aerospace engineer Nambi Narayanan makes enemies due
+                to his genius and obsession, and he faces charges of espionage.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/hdhd.jpg" alt="" />
+              <span class="movie-li-title"> HDHD </span>
+              <p class="movie-li-para">
+                Dhruv, who grew up an orphan, is in love with a woman who wishes
+                to marry someone with a family. In order to fulfil his lover's
+                wish, he hires two older individuals to pose as his parents.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/atrangire.jpeg" alt="" />
+              <span class="movie-li-title"> AtrangiRe </span>
+              <p class="movie-li-para">
+                Chaos ensues when a runaway woman gets forcefully married to a
+                man who is already engaged. The situation turns murkier when the
+                girl's boyfriend enters their lives.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/dhmka.jpeg" alt="" />
+              <span class="movie-li-title"> Dhamaka </span>
+              <p class="movie-li-para">
+                When a cynical ex-TV news anchor gets an alarming call on his
+                radio show, he sees a chance for a career comeback -- but it may
+                cost him his conscience.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/jjj.jpeg" alt="" />
+              <span class="movie-li-title"> JJJ </span>
+              <p class="movie-li-para">
+                Two couples from different generations confront their
+                relationship issues after marriage, revealing infidelity and
+                divorce.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/majormov.jpg" alt="" />
+              <span class="movie-li-title">Major</span>
+              <p class="movie-li-para">
+                Major Sandeep Unnikrishnan faces his biggest battle when he
+                joins the task force to save the occupants at the Taj Hotel
+                attacked by a terrorist group.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/shershah.jpeg" alt="" />
+              <span class="movie-li-title"> Shershaah </span>
+              <p class="movie-li-para">
+                Vikram Batra, a young man, dreams of becoming a soldier . Soon
+                after his training, he climbs the military ranks and contributes
+                to India's victory in the Kargil war.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/bhoolbhul.jpg" alt="" />
+              <span class="movie-li-title"> BB2 </span>
+              <p class="movie-li-para">
+                When strangers Reet and Ruhan cross paths, their journey leads
+                to an abandoned mansion and a dreaded spirit who has been
+                trapped for 18 years.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/hdhd.jpg" alt="" />
+              <span class="movie-li-title"> HDHD </span>
+              <p class="movie-li-para">
+                Dhruv, who grew up an orphan, is in love with a woman who wishes
+                to marry someone with a family. In order to fulfil his lover's
+                wish, he hires two older individuals to pose as his parents.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/rcktry.jpg" alt="" />
+              <span class="movie-li-title"> Rocketry</span>
+              <p class="movie-li-para">
+                East Indian aerospace engineer Nambi Narayanan makes enemies due
+                to his genius and obsession, and he faces charges of espionage.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/atrangire.jpeg" alt="" />
+              <span class="movie-li-title"> AtrangiRe </span>
+              <p class="movie-li-para">
+                Chaos ensues when a runaway woman gets forcefully married to a
+                man who is already engaged. The situation turns murkier when the
+                girl's boyfriend enters their lives.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/dhmka.jpeg" alt="" />
+              <span class="movie-li-title"> Dhamaka </span>
+              <p class="movie-li-para">
+                When a cynical ex-TV news anchor gets an alarming call on his
+                radio show, he sees a chance for a career comeback -- but it may
+                cost him his conscience.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="movie-list-box" id="retro">
+        <h1>Retro Hits</h1>
+        <div class="carousel" data-flickity='{ "groupCells": true }'>
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/ddlj.jpeg" alt="" />
+              <span class="movie-li-title">DDLJ</span>
+              <p class="movie-li-para">
+                Raj and Simran meet during a trip across Europe and the two fall
+                in love. However, when Raj learns that Simran is already
+                promised to another, he follows her to India to win her and her
+                father over.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/diltopagalhai.jpeg" alt="" />
+              <span class="movie-li-title"> DTPH</span>
+              <p class="movie-li-para">
+                Rahul is the director of a dance troupe, one of whose members,
+                Nisha, is secretly in love with him. However, he gets attracted
+                to Pooja, who is engaged to Ajay.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/kkhh.jpeg" alt="" />
+              <span class="movie-li-title">KKHH</span>
+              <p class="movie-li-para">
+                After reading the letter her mother had written for her before
+                she died, Anjali decides to bring together her widowed father,
+                Rahul, with his true love who is also named Anjali.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/swds.jpg" alt="" />
+              <span class="movie-li-title">Swades </span>
+              <p class="movie-li-para">
+                Mohan, an Indian expatriate employed with NASA, travels to his
+                country to track down his beloved nanny, Kaveri. During his
+                stay, he finds himself advocating for reform in a village.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/pyrkiatho.jpg" alt="" />
+              <span class="movie-li-title">PKDK</span>
+              <p class="movie-li-para">
+                Rahul leaves Sanjana for a woman he meets in India but Sanjana
+                refuses to give up. She hires Shekhar to pretend to be her
+                boyfriend but in the process falls in love with him.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/k3g.jpeg" alt="" />
+              <span class="movie-li-title">K3G</span>
+              <p class="movie-li-para">
+                Rahul, the adopted older son of a rich couple, is banished by
+                his father when he chooses to marry a middle-class woman. Years
+                later, his younger brother, Rohan, sets out to find him.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/mhbtain.jpeg" alt="" />
+              <span class="movie-li-title"> Mohbatein </span>
+              <p class="movie-li-para">
+                Narayan is a strict principal of Gurukul who does not believe in
+                love and forbids his students from following their hearts.
+                However, things take a turn when a music teacher challenges his
+                authority.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/k3g.jpeg" alt="" />
+              <span class="movie-li-title">K3G</span>
+              <p class="movie-li-para">
+                Rahul, the adopted older son of a rich couple, is banished by
+                his father when he chooses to marry a middle-class woman. Years
+                later, his younger brother, Rohan, sets out to find him.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/ddlj.jpeg" alt="" />
+              <span class="movie-li-title">DDLJ</span>
+              <p class="movie-li-para">
+                Raj and Simran meet during a trip across Europe and the two fall
+                in love. However, when Raj learns that Simran is already
+                promised to another, he follows her to India to win her and her
+                father over.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/swds.jpg" alt="" />
+              <span class="movie-li-title">Swades </span>
+              <p class="movie-li-para">
+                Mohan, an Indian expatriate employed with NASA, travels to his
+                country to track down his beloved nanny, Kaveri. During his
+                stay, he finds himself advocating for reform in a village.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/pyrkiatho.jpg" alt="" />
+              <span class="movie-li-title">PKDK</span>
+              <p class="movie-li-para">
+                Rahul leaves Sanjana for a woman he meets in India but Sanjana
+                refuses to give up. She hires Shekhar to pretend to be her
+                boyfriend but in the process falls in love with him.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/diltopagalhai.jpeg" alt="" />
+              <span class="movie-li-title"> DTPH</span>
+              <p class="movie-li-para">
+                Rahul is the director of a dance troupe, one of whose members,
+                Nisha, is secretly in love with him. However, he gets attracted
+                to Pooja, who is engaged to Ajay.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/kkhh.jpeg" alt="" />
+              <span class="movie-li-title">KKHH</span>
+              <p class="movie-li-para">
+                After reading the letter her mother had written for her before
+                she died, Anjali decides to bring together her widowed father,
+                Rahul, with his true love who is also named Anjali.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/mhbtain.jpeg" alt="" />
+              <span class="movie-li-title"> Mohbatein </span>
+              <p class="movie-li-para">
+                Narayan is a strict principal of Gurukul who does not believe in
+                love and forbids his students from following their hearts.
+                However, things take a turn when a music teacher challenges his
+                authority.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br /><br />
+      <div
+        class="carousel1"
+        id="popular"
+        data-flickity='{ "wrapAround": true }'
+      >
+        <div class="carousel-cell1">
+          <div
+            class="featured-content"
+            style="
+              background: linear-gradient(
+                  to bottom,
+                  rgba(0, 0, 0, 0.4),
+                  #151515
+                ),
+                url('img/pkback.jpg') no-repeat;
+              background-size: 100% 100%;
+            "
+          >
+            <h1>PK</h1>
+            <p>
+              An innocent alien lands on Earth but loses his communication
+              device. He meets Jaggu, a heartbroken reporter, and tries to find
+              his device. With time, he raises many thought-provoking questions.
+            </p>
+            <button class="watch-btn">Watch Now</button>
+          </div>
+        </div>
+
+        <div class="carousel-cell1">
+          <div
+            class="featured-content"
+            style="
+              background: linear-gradient(
+                  to bottom,
+                  rgba(0, 0, 0, 0.4),
+                  #151515
+                ),
+                url('img/barfiback.webp') no-repeat;
+              background-size: 100% 100%;
+            "
+          >
+            <h1>Barfi</h1>
+            <p>
+              Barfi forms a special bond with Jhilmil, a girl with autism. When
+              Barfi's old flame walks back into his life, it causes
+              misunderstandings between Jhilmil and him.
+            </p>
+            <button class="watch-btn">Watch Now</button>
+          </div>
+        </div>
+        <div class="carousel-cell1">
+          <div
+            class="featured-content"
+            style="
+              background: linear-gradient(
+                  to bottom,
+                  rgba(0, 0, 0, 0.4),
+                  #151515
+                ),
+                url('img/raziback.jpg') no-repeat;
+              background-size: 100% 100%;
+            "
+          >
+            <h1>Raazi</h1>
+            <p>
+              Sehmat Khan, an undercover RAW agent, is married into a Pakistani
+              family by her father so that she can get some valuable piece of
+              information about the enemy.
+            </p>
+            <button class="watch-btn">Watch Now</button>
+          </div>
+        </div>
+        <div class="carousel-cell1">
+          <div
+            class="featured-content"
+            style="
+              background: linear-gradient(
+                  to bottom,
+                  rgba(0, 0, 0, 0.4),
+                  #151515
+                ),
+                url('img/gboyback.jpg') no-repeat;
+              background-size: 100% 100%;
+            "
+          >
+            <h1>Gullyboy</h1>
+            <p>
+              Murad, an underdog, struggles to convey his views on social issues
+              and life in Dharavi through rapping. His life changes drastically
+              when he meets a local rapper, Shrikant alias MC Sher.
+            </p>
+            <button class="watch-btn">Watch Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="movie-list-box" id="feelgood">
+        <h1>Feel Good Movies</h1>
+        <div class="carousel" data-flickity='{ "groupCells": true }'>
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/notebook.jpeg" alt="" />
+              <span class="movie-li-title">Notebook</span>
+              <p class="movie-li-para">
+                Kabir, an ex-soldier, becomes a teacher and finds a diary left
+                by Firdaus, a former employee of the school. He follows the
+                writings in the book and soon finds himself falling for the
+                writer..
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/barfi.webp" alt="" />
+              <span class="movie-li-title">Barfi</span>
+              <p class="movie-li-para">
+                Barfi forms a special bond with Jhilmil, a girl with autism.
+                When Barfi's old flame walks back into his life, it causes
+                misunderstandings between Jhilmil and him.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/jwm.jpg" alt="" />
+              <span class="movie-li-title">JWM</span>
+              <p class="movie-li-para">
+                The adversities of Aditya's business and love life bring him on
+                the verge of committing suicide. One day, he boards a train and
+                bumps into Geet, a lively and talkative Punjabi Sikh girl.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/adhm.jpeg" alt="" />
+              <span class="movie-li-title">ADHM</span>
+              <p class="movie-li-para">
+                Alizeh, an independent woman recovering from a breakup, and
+                Ayan, a naive musician, meet in New York and form an incredible
+                bond. From there, they experience love, heartbreak and the facts
+                of life.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/gboy.jpg" alt="" />
+              <span class="movie-li-title">Gullyboy</span>
+              <p class="movie-li-para">
+                Murad, an underdog, struggles to convey his views on social
+                issues and life in Dharavi through rapping. His life changes
+                drastically when he meets a local rapper, Shrikant alias MC Sher
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/lukachupi.jpeg" alt="" />
+              <span class="movie-li-title">Lukachuppi</span>
+              <p class="movie-li-para">
+                Guddu, a reporter, falls in love with Rashmi and they begin a
+                live-in relationship. However, their life turns chaotic when
+                their families assume that they have eloped.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/sanju.jpg" alt="" />
+              <span class="movie-li-title"> Sanju</span>
+              <p class="movie-li-para">
+                Sanjay Dutt, an actor from the Bollywood film industry,
+                struggles with the legacy that is handed down to him by his
+                parents, along with his personal dilemmas and vices.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/lukachupi.jpeg" alt="" />
+              <span class="movie-li-title">Lukachuppi</span>
+              <p class="movie-li-para">
+                Guddu, a reporter, falls in love with Rashmi and they begin a
+                live-in relationship. However, their life turns chaotic when
+                their families assume that they have eloped.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/gboy.jpg" alt="" />
+              <span class="movie-li-title">Gullyboy</span>
+              <p class="movie-li-para">
+                Murad, an underdog, struggles to convey his views on social
+                issues and life in Dharavi through rapping. His life changes
+                drastically when he meets a local rapper, Shrikant alias MC Sher
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/adhm.jpeg" alt="" />
+              <span class="movie-li-title">ADHM</span>
+              <p class="movie-li-para">
+                Alizeh, an independent woman recovering from a breakup, and
+                Ayan, a naive musician, meet in New York and form an incredible
+                bond. From there, they experience love, heartbreak and the facts
+                of life.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/jwm.jpg" alt="" />
+              <span class="movie-li-title">JWM</span>
+              <p class="movie-li-para">
+                The adversities of Aditya's business and love life bring him on
+                the verge of committing suicide. One day, he boards a train and
+                bumps into Geet, a lively and talkative Punjabi Sikh girl.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/notebook.jpeg" alt="" />
+              <span class="movie-li-title">Notebook</span>
+              <p class="movie-li-para">
+                Kabir, an ex-soldier, becomes a teacher and finds a diary left
+                by Firdaus, a former employee of the school. He follows the
+                writings in the book and soon finds himself falling for the
+                writer..
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/barfi.webp" alt="" />
+              <span class="movie-li-title">Barfi</span>
+              <p class="movie-li-para">
+                Barfi forms a special bond with Jhilmil, a girl with autism.
+                When Barfi's old flame walks back into his life, it causes
+                misunderstandings between Jhilmil and him.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/sanju.jpg" alt="" />
+              <span class="movie-li-title"> Sanju</span>
+              <p class="movie-li-para">
+                Sanjay Dutt, an actor from the Bollywood film industry,
+                struggles with the legacy that is handed down to him by his
+                parents, along with his personal dilemmas and vices.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="movie-list-box" id="recom">
+        <h1>Recommended Movies</h1>
+        <div class="carousel" data-flickity='{ "groupCells": true }'>
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/mission mangal.jpg" alt="" />
+              <span class="movie-li-title">MM</span>
+              <p class="movie-li-para">
+                A group of scientists at ISRO battle in their personal and
+                professional lives and work tirelessly towards their only
+                motive, the Mars Orbiter Mission.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/sanam re.jpg" alt="" />
+              <span class="movie-li-title">SanamRe</span>
+              <p class="movie-li-para">
+                Akash and Shruti, two classmates in love, are separated due to
+                unforeseen circumstances. Years later, they get a second chance
+                at their relationship when they meet in Canada.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/ranjhanna.jpg" alt="" />
+              <span class="movie-li-title">Ranjhana</span>
+              <p class="movie-li-para">
+                When Kundan finds that his childhood love, Zoya, likes someone
+                from her community, he decides to forget about her.He realises
+                she is lying about her fiance's religion, he goes berserk.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/raazi.jpeg" alt="" />
+              <span class="movie-li-title">Raazi</span>
+              <p class="movie-li-para">
+                Sehmat Khan, an undercover RAW agent, is married into a
+                Pakistani family by her father so that she can get some valuable
+                piece of information about the enemy.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/bbhai.jpeg" alt="" />
+              <span class="movie-li-title">BB</span>
+              <p class="movie-li-para">
+                Pawan, a devotee of Lord Hanuman, finds a girl, who is speech
+                impaired, lost in Haryana. He soon learns that she belongs to
+                Pakistan and sets out to reunite her with her family at great
+                cost.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/pk.jpeg" alt="" />
+              <span class="movie-li-title">PK</span>
+              <p class="movie-li-para">
+                An innocent alien lands on Earth but loses his communication
+                device. He meets Jaggu, a heartbroken reporter, and tries to
+                find his device. With time, he raises many thought-provoking
+                questions.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/october.jpeg" alt="" />
+              <span class="movie-li-title">October</span>
+              <p class="movie-li-para">
+                Dan and Shiuli are brought closer in an unexpected turn of
+                events. Eventually, they develop feelings for each other r which
+                leads to an internal awakening.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/pk.jpeg" alt="" />
+              <span class="movie-li-title">PK</span>
+              <p class="movie-li-para">
+                An innocent alien lands on Earth but loses his communication
+                device. He meets Jaggu, a heartbroken reporter, and tries to
+                find his device. With time, he raises many thought-provoking
+                questions.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/bbhai.jpeg" alt="" />
+              <span class="movie-li-title">BB</span>
+              <p class="movie-li-para">
+                Pawan, a devotee of Lord Hanuman, finds a girl, who is speech
+                impaired, lost in Haryana. He soon learns that she belongs to
+                Pakistan and sets out to reunite her with her family at great
+                cost.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/raazi.jpeg" alt="" />
+              <span class="movie-li-title">Raazi</span>
+              <p class="movie-li-para">
+                Sehmat Khan, an undercover RAW agent, is married into a
+                Pakistani family by her father so that she can get some valuable
+                piece of information about the enemy.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/mission mangal.jpg" alt="" />
+              <span class="movie-li-title">MM</span>
+              <p class="movie-li-para">
+                A group of scientists at ISRO battle in their personal and
+                professional lives and work tirelessly towards their only
+                motive, the Mars Orbiter Mission.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/sanam re.jpg" alt="" />
+              <span class="movie-li-title">SanamRe</span>
+              <p class="movie-li-para">
+                Akash and Shruti, two classmates in love, are separated due to
+                unforeseen circumstances. Years later, they get a second chance
+                at their relationship when they meet in Canada.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/ranjhanna.jpg" alt="" />
+              <span class="movie-li-title">Ranjhana</span>
+              <p class="movie-li-para">
+                When Kundan finds that his childhood love, Zoya, likes someone
+                from her community, he decides to forget about her.He realises
+                she is lying about her fiance's religion, he goes berserk.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+
+          <div class="movie-list">
+            <div class="movie-list-item">
+              <img src="img/october.jpeg" alt="" />
+              <span class="movie-li-title">October</span>
+              <p class="movie-li-para">
+                Dan and Shiuli are brought closer in an unexpected turn of
+                events. Eventually, they develop feelings for each other r which
+                leads to an internal awakening.
+              </p>
+              <button class="li-watch-btn">Watch</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  </body>
+</html>
