@@ -66,6 +66,7 @@
   background-color: whitesmoke;
   padding: 20px 15px;
   color: black;
+  border-radius: 10px;
 }
 #profile-box {
   flex: 2;
@@ -75,24 +76,6 @@
   cursor: pointer;
 }
 
-#sidebar {
-  width: 50px;
-  height: 100%;
-  background-color: black;
-  position: fixed;
-  top: 0;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 60px;
-}
-
-.side-icon {
-  padding: 10px;
-  margin-top: 10px;
-  font-size: 30px;
-}
 
 #profile-text {
   font-family: "Ubuntu", sans-serif;
@@ -340,10 +323,10 @@ body {
   margin-left: 0px;
   overflow: hidden;
 }
-/* 
+
 .flickity-page-dots {
    display: none;
-} */
+}
 
 .flickity-prev-next-button.next {
   right: 10px;
@@ -366,3 +349,392 @@ body {
   background-color: rgb(0, 0, 0);
   opacity: 1;
 }
+
+@media (min-width:1000px) and (max-width:1200px){
+
+  .featured-content h1 {
+    position: relative;
+    top: 14rem;
+    margin-left: 3rem;
+    font-size: 2.7rem;
+  
+  }
+  
+  .featured-content p {
+    color: white;
+    position: relative;
+    top: 14rem;
+    margin: 0px 0px 0px 10px;
+    padding: 10px 576px 11px 40px;
+    font-size: 1.22em;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .featured-content button {
+    position: relative;
+    top: 14rem;
+    left: 2px;
+    margin: 0px 0px 0px 48px;
+    margin-top: 10px;
+  }
+
+
+}
+
+
+
+@media (min-width:800px) and (max-width:1000px){
+  .featured-content h1 {
+    position: relative;
+    top: 13rem;
+    margin-left: 3rem;
+    font-size: 2.7rem;
+  
+  }
+  
+  .featured-content p {
+    color: white;
+    position: relative;
+    top: 13rem;
+    margin: 0px 0px 0px 10px;
+    padding: 10px 0px 11px 40px;
+    font-size: 1.22em;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .featured-content button {
+    position: relative;
+    top: 13rem;
+    left: 2px;
+    margin: 0px 0px 0px 48px;
+    margin-top: 10px;
+  }
+
+
+
+  #navbar {
+    width: 100%;
+    height: 115px;
+    background-color: black;
+    
+  }
+  
+  #navbar-container {
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+
+
+  .flickity-slider {
+    margin-top: 3px;
+}
+  
+#menu-box ul li {
+   margin-left: 30px;
+
+}
+
+
+
+}
+
+
+
+@media (min-width:500px) and (max-width:800px){
+  .featured-content h1 {
+    position: relative;
+    top: 13rem;
+    margin-left: 2.5rem;
+    font-size: 2rem;
+  
+  }
+  
+  .featured-content p {
+    color: white;
+    position: relative;
+    top: 13rem;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 11px 40px;
+    font-size: 1rem;
+
+  }
+  
+  .featured-content button {
+    position: relative;
+    top: 13rem;
+    left: 2px;
+    margin-left: 2.3rem;
+    margin-top: 10px;
+  }
+
+
+  
+  #navbar {
+    width: 100%;
+    height: 115px;
+    background-color: black;
+    
+  }
+  
+  #navbar-container {
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+
+
+  .flickity-slider {
+    margin-top: 3px;
+}
+  
+#menu-box ul li {
+   margin-left: 10px;
+   margin-right: 10px;
+
+
+
+
+  }
+
+
+  #menu-box ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    margin: 5px 5px;
+  }
+  #menu-box ul li a:hover {
+    background-color: whitesmoke;
+    padding: 20px 15px;
+    color: black;
+    border-radius: 10px;
+  }
+  #profile-box {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+  
+  
+  #profile-text {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    margin-left: 15px;
+  }
+  
+  #profile-box img {
+    height: 38px;
+  }
+
+}
+
+
+
+@media (min-width:310px) and (max-width:500px){
+  .featured-content h1 {
+    position: relative;
+    top: 15rem;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+  
+  }
+  
+  .featured-content p {
+    color: white;
+    position: relative;
+    top: 15rem;
+ 
+    padding: 10px 0px 11px 10px;
+    font-size: 0.8rem;
+
+  }
+  
+  .featured-content button {
+    position: relative;
+    top: 15rem;
+    left: 2px;
+    margin-left: 1.2rem;
+    padding :10px 10px;
+    margin-top: 10px;
+  }
+
+  #navbar {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    
+  }
+
+  #logo-box{
+    font-size: 20px;
+  }
+  
+  #navbar-container {
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+
+
+  .flickity-slider {
+    margin-top: 3px;
+}
+  
+
+#menu-box ul {
+   padding: 0px 0px;
+}
+#menu-box ul li {
+   margin-left: 10px;
+   margin-right: 10px;
+
+
+
+
+  }
+
+
+  #menu-box ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-size: 11px;
+  }
+
+  #menu-box ul li a:hover {
+    background-color: whitesmoke;
+    padding: 20px 15px;
+    color: black;
+    border-radius: 10px;
+  }
+  
+  #profile-box {
+    display: none;
+  }
+  
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media (min-width:250px) and (max-width:310px){
+  .featured-content h1 {
+    position: relative;
+    top: 15rem;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+  
+  }
+  
+  .featured-content p {
+    color: white;
+    position: relative;
+    top: 15rem;
+ 
+    padding: 10px 0px 11px 10px;
+    font-size: 0.8rem;
+
+  }
+  
+  .featured-content button {
+    position: relative;
+    top: 15rem;
+    left: 2px;
+    margin-left: 1.2rem;
+    padding :10px 10px;
+    margin-top: 10px;
+  }
+
+  #navbar {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    
+  }
+
+  #logo-box{
+    font-size: 20px;
+  }
+  
+  #navbar-container {
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+
+
+  .flickity-slider {
+    margin-top: 3px;
+}
+  
+
+#menu-box ul {
+   padding: 0px 0px;
+    margin: 0px 0px;
+  }
+#menu-box ul li {
+  margin: 4px 4px;
+
+
+  }
+
+
+  #menu-box ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-size: 9px;
+  }
+
+  #menu-box ul li a:hover {
+    background-color: whitesmoke;
+    padding: 20px 15px;
+    color: black;
+    border-radius: 10px;
+  }
+  
+  #profile-box {
+    display: none;
+  }
+  
+
+}
+
