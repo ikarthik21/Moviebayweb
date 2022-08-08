@@ -148,13 +148,14 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-.featured-content button {
+.featured-content .watch-btn {
   position: relative;
-  top: 16rem;
+  top: 17rem;
   left: 2px;
   margin: 0px 0px 0px 48px;
-  margin-top: 10px;
+  margin-top: 0px;
 }
+
 
 .watch-btn {
   border: none;
@@ -163,12 +164,14 @@
   background-color: rgb(56, 213, 56);
   border-radius: 15px;
   cursor: pointer;
+  text-decoration: none;
+  color: white;
 
   font-weight: bold;
 }
 
 .watch-btn:hover {
-  transform: scale(1.07);
+  padding: 18px 22px;
 }
 
 .movie-list-box {
@@ -196,7 +199,7 @@
 .li-watch-btn {
   border: none;
   outline: none;
-  padding: 10px 10px;
+  padding: 9px 9px;
   background-color: rgb(56, 213, 56);
   border-radius: 15px;
   cursor: pointer;
@@ -204,7 +207,8 @@
   position: absolute;
   top: 190px;
   left: 15px;
-
+  text-decoration: none;
+  color: whitesmoke;
   opacity: 0;
 }
 
@@ -356,7 +360,7 @@ body {
     position: relative;
     top: 14rem;
     margin-left: 3rem;
-    font-size: 2.7rem;
+    font-size: 2.5rem;
   
   }
   
@@ -365,14 +369,14 @@ body {
     position: relative;
     top: 14rem;
     margin: 0px 0px 0px 10px;
-    padding: 10px 576px 11px 40px;
-    font-size: 1.22em;
+    padding: 10px 450px 11px 40px;
+    font-size: 1.2em;
     font-family: "Ubuntu", sans-serif;
   }
   
-  .featured-content button {
+  .featured-content a {
     position: relative;
-    top: 14rem;
+    top: 13rem;
     left: 2px;
     margin: 0px 0px 0px 48px;
     margin-top: 10px;
@@ -402,7 +406,7 @@ body {
     font-family: "Ubuntu", sans-serif;
   }
   
-  .featured-content button {
+  .featured-content a {
     position: relative;
     top: 13rem;
     left: 2px;
@@ -465,7 +469,7 @@ body {
 
   }
   
-  .featured-content button {
+  .featured-content a {
     position: relative;
     top: 13rem;
     left: 2px;
@@ -539,6 +543,18 @@ body {
   #profile-box img {
     height: 38px;
   }
+  .featured-content a{
+    
+   padding: 10px 10px;
+}
+
+.featured-content .watch-btn {
+    top:14rem;
+  margin: 0px 0px 0px 35px;
+  margin-top: 0px;
+}
+
+
 
 }
 
@@ -563,7 +579,7 @@ body {
 
   }
   
-  .featured-content button {
+  .featured-content a {
     position: relative;
     top: 15rem;
     left: 2px;
@@ -634,6 +650,11 @@ body {
     display: none;
   }
   
+  .featured-content .watch-btn {
+    
+    margin: 0px 0px 0px 15px;
+    margin-top: 0px;
+}
 
 
 
@@ -666,7 +687,7 @@ body {
 
   }
   
-  .featured-content button {
+  .featured-content a {
     position: relative;
     top: 15rem;
     left: 2px;
@@ -734,7 +755,11 @@ body {
   #profile-box {
     display: none;
   }
-  
+  .featured-content .watch-btn {
+    
+    margin: 0px 0px 0px 15px;
+    margin-top: 0px;
+}
 
 }
 
