@@ -1,1 +1,42 @@
-Hello everyone! This is my first project on Web devlopment.I have made a responsive  movie webiste using basic HTML and pure CSS and some other components such as "Flickity".
+# Moviebay (A Simple Movie Website)
+
+### Live On
+
+https://ikarthik21.github.io/Moviebayweb/
+
+ 
+## Authors
+
+- [@ikarthik21](https://github.com/ikarthik21)
+
+## Project Overview
+
+This project is a front-end of a simple movie webiste. 
+I used HTML, CSS, and Javascript in building this.
+I used Flickity for the sliding Carousel.
+
+###  Refernce 
+- Flickity : https://flickity.metafizzy.co/
+
+ 
+
+## Run Locally
+ 
+  Download the Project , open the **index.html** with **live server**.  
+
+
+
+
+## Screenshots
+ 
+
+![Screenshot](https://i.ibb.co/YcgfJzq/mv.png)
+
+ 
+![Screenshot](https://i.ibb.co/tmKFvc9/mv1.png)
+
+ 
+
+![Screenshot](https://i.ibb.co/p1GhN4P/mv2.png)
+
+ 
