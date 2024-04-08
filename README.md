@@ -9,11 +9,10 @@ https://ikarthik21.github.io/Moviebayweb/
 
 ## Project Overview
 
-This project is a front-end of a simple movie webiste. 
-I used HTML, CSS, and Javascript in building this.
-I used Flickity for the sliding Carousel.
+This project is a front-end of a simple movie webiste using HTML, CSS, and Javascript in building this.
 
-###  Refernce 
+
+###  Reference 
 - Flickity : https://flickity.metafizzy.co/
 
  
