@@ -5,9 +5,7 @@
 https://ikarthik21.github.io/Moviebayweb/
 
  
-## Authors
 
-- [@ikarthik21](https://github.com/ikarthik21)
 
 ## Project Overview
 
